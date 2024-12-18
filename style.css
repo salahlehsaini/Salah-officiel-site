@@ -1,0 +1,162 @@
+body{
+    background-image: url(2.jpg); 
+    background-size: cover;
+    color: beige;
+    font-family: cursive;
+    /* background: linear-gradient(rgb(31, 0, 42),rgb(71, 2, 111)); */
+    height: 700px;
+    text-align: center;
+}
+
+.username{
+    margin: 0px auto 20px auto;
+    width: 250px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    transition: font-size 0.6s;
+}
+
+.username:hover{
+    font-size: 22px;
+    transition: font-size 0.6s;
+}
+
+.bio{
+    margin: 20px auto;
+    width: 250px;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.line1{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: font-size 0.6s;
+}
+.line2{
+    margin: 0;
+    font-size: 15px;
+    font-weight: bold;
+    transition: font-size 0.6s;
+}
+
+.line1:hover{
+    font-size: 18px;
+    transition: font-size 0.6s;
+}
+
+.line2:hover{
+    font-size: 16px;
+    transition: font-size 0.6s;
+}
+
+.inf_ing_1{
+    font-family: cursive;
+    display: block;
+    margin: 20px auto;
+    border-radius:30px;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border-width: 0;
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.inf{
+    text-decoration: none;
+    color: beige;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+
+.inf_ing_1:active{
+    background-color: beige;
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.inf:active{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px rgb(0, 0, 0);
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.inf_ing_1:hover{
+    background-color: rgb(3, 0, 47);
+}
+
+.instagram{
+    font-family: cursive;
+    margin: 20px auto;
+    display: block;
+    border-radius:30px;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border-width: 0;
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.insta{
+    text-decoration: none;
+    color: beige;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+
+.instagram:active{
+    background-color: beige;
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.insta:active{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px rgb(0, 0, 0);
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.instagram:hover{
+    background-color: rgb(3, 0, 47);
+}
+
+.date{
+    display: block;
+}
+
+.logo{
+    border-radius: 50%;
+    transition: width 0.6s, margin-bottom 0.6s;
+    margin-bottom: 25px;
+}
+
+.logo:hover{
+    width: 250px;
+    transition: width 0.6s, margin-bottom 0.6s;
+    margin-bottom: 0px;
+}
+
+.fb{
+    font-family: cursive;
+    margin: 20px auto;
+    display: block;
+    border-radius:30px;
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border-width: 0;
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.facebook{
+    text-decoration: none;
+    color: beige;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+
+.fb:active{
+    background-color: beige;
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.facebook:active{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px rgb(0, 0, 0);
+    transition: color 0.6s, text-shadow 0.6s, background-color 0.6s;
+}
+.fb:hover{
+    background-color: rgb(3, 0, 47);
+}
